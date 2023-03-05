@@ -1,0 +1,15 @@
+button {
+    text-align: center;
+    background-color: darkgray;
+    border: none;
+    width: 300px;
+    height: 80px;
+
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+button:hover {
+    color: dimgrey;
+}
