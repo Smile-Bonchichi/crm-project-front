@@ -16,44 +16,44 @@ const MainPage = () => {
 
             <div className={ 'wrapper__buttons' }>
                 <Button
-                    text={ 'Sale of products' }
-                    onClick={ () => navigator(RouterUrl.SALE_OF_PRODUCTS_PAGE) }
+                    text={ RouterUrl.SALE_OF_PRODUCTS_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.SALE_OF_PRODUCTS_PAGE.url) }
                 />
                 <Button
-                    text={ 'Budget' }
-                    onClick={ () => navigator(RouterUrl.BUDGET_PAGE) }
+                    text={ RouterUrl.BUDGET_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.BUDGET_PAGE.url) }
                 />
                 <Button
-                    text={ 'Employee' }
-                    onClick={ () => navigator(RouterUrl.EMPLOYEE_PAGE) }
+                    text={ RouterUrl.EMPLOYEE_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.EMPLOYEE_PAGE.url) }
                 />
                 <Button
-                    text={ 'Job title' }
-                    onClick={ () => navigator(RouterUrl.JOB_TITLE_PAGE) }
+                    text={ RouterUrl.JOB_TITLE_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.JOB_TITLE_PAGE.url) }
                 />
                 <Button
-                    text={ 'Production' }
-                    onClick={ () => navigator(RouterUrl.PRODUCTION_PAGE) }
+                    text={ RouterUrl.PRODUCTION_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.PRODUCTION_PAGE.url) }
                 />
                 <Button
-                    text={ 'Purchase raw materials' }
-                    onClick={ () => navigator(RouterUrl.PURCHASE_RAW_MATERIALS_PAGE) }
+                    text={ RouterUrl.PURCHASE_RAW_MATERIALS_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.PURCHASE_RAW_MATERIALS_PAGE.url) }
                 />
                 <Button
-                    text={ 'Raw materials' }
-                    onClick={ () => navigator(RouterUrl.RAW_MATERIALS_PAGE) }
+                    text={ RouterUrl.RAW_MATERIALS_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.RAW_MATERIALS_PAGE.url) }
                 />
                 <Button
-                    text={ 'Units' }
-                    onClick={ () => navigator(RouterUrl.UNITS_PAGE) }
+                    text={ RouterUrl.UNITS_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.UNITS_PAGE.url) }
                 />
                 <Button
-                    text={ 'Finished production' }
-                    onClick={ () => navigator(RouterUrl.FINISHED_PRODUCTION_PAGE) }
+                    text={ RouterUrl.FINISHED_PRODUCTION_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.FINISHED_PRODUCTION_PAGE.url) }
                 />
                 <Button
-                    text={ 'Ingredients' }
-                    onClick={ () => navigator(RouterUrl.INGREDIENTS_PAGE) }
+                    text={ RouterUrl.INGREDIENTS_PAGE.name }
+                    onClick={ () => navigator(RouterUrl.INGREDIENTS_PAGE.url) }
                 />
             </div>
         </div>

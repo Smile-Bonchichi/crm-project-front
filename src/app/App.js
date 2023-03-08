@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { routers } from "./router/Routers";
 
 import './style/global-reset.css';
+
 export const App = () => {
     return (
         <BrowserRouter>
@@ -11,7 +12,7 @@ export const App = () => {
                     routers.map((item, i) => {
                         return <Route
                             key={ i }
-                            path={ item.url }
+                            path={ item.url.url }
                             element={ item.element }
                         />;
                     })

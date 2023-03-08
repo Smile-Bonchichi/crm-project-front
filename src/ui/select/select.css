@@ -1,0 +1,8 @@
+select {
+    font-family: 'Times New Roman', sans-serif;
+    height: 30px;
+    font-size: 15px;
+
+    background: darkgray;
+    border: none;
+}

@@ -11,21 +11,21 @@ import FinishedProductionPage from "../../pages/finished-production/FinishedProd
 import IngredientsPage from "../../pages/ingredients/IngredientsPage";
 
 export const RouterUrl = {
-    SALE_OF_PRODUCTS_PAGE: '/sale-of-product',
-    BUDGET_PAGE: '/budget',
-    EMPLOYEE_PAGE: '/employee',
-    JOB_TITLE_PAGE: '/job-title',
-    PRODUCTION_PAGE: '/production',
-    PURCHASE_RAW_MATERIALS_PAGE: '/purchase-raw-materials',
-    RAW_MATERIALS_PAGE: '/raw-materials',
-    UNITS_PAGE: '/units',
-    FINISHED_PRODUCTION_PAGE: '/finished-production',
-    INGREDIENTS_PAGE: '/ingredients',
-
+    MAIN_PAGE: { url: '/', name: 'Main page' },
+    SALE_OF_PRODUCTS_PAGE: { url: '/sale-of-products', name: 'Sale of products' },
+    BUDGET_PAGE: { url: '/budget', name: 'Budget' },
+    EMPLOYEE_PAGE: { url: '/employee', name: 'Employee' },
+    JOB_TITLE_PAGE: { url: '/job-title', name: 'Job title' },
+    PRODUCTION_PAGE: { url: '/production', name: 'Production' },
+    PURCHASE_RAW_MATERIALS_PAGE: { url: '/purchase-raw-materials', name: 'Purchase raw materials' },
+    RAW_MATERIALS_PAGE: { url: '/raw-materials', name: 'Raw materials' },
+    UNITS_PAGE: { url: '/units', name: 'Units' },
+    FINISHED_PRODUCTION_PAGE: { url: '/finished-production', name: 'Finished production' },
+    INGREDIENTS_PAGE: { url: '/ingredients', name: 'Ingredients' },
 }
 
 export const routers = [
-    { url: '/', element: <MainPage/> },
+    { url: RouterUrl.MAIN_PAGE, element: <MainPage/> },
     { url: RouterUrl.SALE_OF_PRODUCTS_PAGE, element: <SaleOfProductsPage/> },
     { url: RouterUrl.BUDGET_PAGE, element: <BudgetPage/> },
     { url: RouterUrl.EMPLOYEE_PAGE, element: <EmployeePage/> },
