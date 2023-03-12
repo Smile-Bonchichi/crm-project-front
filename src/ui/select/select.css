@@ -1,8 +1,8 @@
 select {
     font-family: 'Times New Roman', sans-serif;
     height: 30px;
-    font-size: 15px;
+    font-size: 20px;
 
-    background: darkgray;
+    background:#8a8a8a;
     border: none;
 }

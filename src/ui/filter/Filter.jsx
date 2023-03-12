@@ -7,18 +7,18 @@ const Filter = () => {
     return (
         <div className={ 'filter' }>
             <label htmlFor="date_from">
-                <p>Дата с</p>
+                <p>Start</p>
                 <input id='date_from' type="date"/>
             </label>
 
             <label htmlFor="date_to">
-                <p>Дата по</p>
+                <p>Finish</p>
                 <input id='date_to' type="date"/>
             </label>
 
             <Button
                 className={ 'filter__button' }
-                text={ 'open report' }
+                text={ 'Open report' }
                 onClick={ () => alert(123) }
             />
         </div>

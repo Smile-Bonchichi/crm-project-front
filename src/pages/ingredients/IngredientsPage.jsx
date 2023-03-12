@@ -6,6 +6,8 @@ const IngredientsPage = () => {
     return (
         <div>
             <Header text={ RouterUrl.INGREDIENTS_PAGE.name }/>
+
+
         </div>
     );
 };

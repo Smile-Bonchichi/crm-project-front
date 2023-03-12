@@ -1,0 +1,16 @@
+.unit {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.add_button {
+    position: absolute;
+    right: 0;
+
+    width:100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #b9b8b8;
+    border-radius: 10px;
+}
+
